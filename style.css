@@ -6,15 +6,33 @@
 @media screen and (min-width:300px) {
     ul{
         list-style-type: none;
-        color: white;
-        padding-top: 45px;
+        color: black;
+        padding-top: 30px;
         font-size: 0.80em;
         font-weight: 600;
+        background-color: white;
+        display: none;
+    }
+    #close{
+        float: right;
+        padding: 0 20px;
+        display: block;
+    }
+    #menu{
+        float: right;
+        margin: 50px;
+        display: ;
     }
     li{
         display: inline-block;
         padding: 5px;
         margin-right: 10px;
+        
+    }
+    #room{
+        margin: 50px;
+        float: left;
+        
     }
     li:hover{
         border-bottom: 2px solid white;
@@ -31,10 +49,7 @@
         width: 100%; 
         
     }
-    #room{
-        margin: 50px;
-        float: left;
-    }
+    
     #second{
         float: none;
         width: none;
@@ -132,6 +147,18 @@
         padding-top: 45px;
         font-size: 0.80em;
         font-weight: 600;
+        background-color: unset;
+        display: block;
+    }
+    #close{
+        float: right;
+        padding: 0 20px;
+        display: none;
+    }
+    #menu{
+        float: right;
+        margin: 50px;
+        display: none;
     }
     li{
         display: inline-block;
@@ -250,6 +277,18 @@
         padding-top: 45px;
         font-size: 0.80em;
         font-weight: 600;
+        background-color: unset;
+        display: block;
+    }
+    #close{
+        float: right;
+        padding: 0 20px;
+        display: none;
+    }
+    #menu{
+        float: right;
+        margin: 50px;
+        display: none;
     }
     li{
         display: inline-block;

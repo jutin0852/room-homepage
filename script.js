@@ -3,6 +3,8 @@ var arrow1=document.getElementById('arrow1');
 var head=document.getElementById('head');
 var text=document.querySelector('#second p')
 var num=0;
+var menu=document.getElementById('menu');
+var close=document.getElementById('close');
 arrow2.onclick=function(e){
     num++;
     if(num==3){num=0}
@@ -56,7 +58,19 @@ arrow1.onclick=function(e){
         text.innerHTML="Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office."
         
     }
-    
+
    
+
+}
+menu.onclick=function(){
+    document.querySelector('ul').style.display='block';
+    document.getElementById('room').style.display='none';
+    menu.style.display="none"
+
+}
+close.onclick=function(){
+    document.querySelector('ul').style.display='none';
+    document.getElementById('room').style.display='block';
+    menu.style.display="block"
 
 }
